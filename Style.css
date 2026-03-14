@@ -1,0 +1,148 @@
+/*
+ First External CSS Stylesheet
+ */
+
+/* Styling for HTML elements */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    background: #808080ff;
+    width: 100%;
+}
+
+h1 {
+   
+    color: white;
+}
+h2 {
+    
+    right: 500px;
+    color: white;
+}
+h3 {
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+header {
+    background: black;
+    text-decoration-color: black;
+}
+
+.navbar li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 80px;
+    margin-left: 60px;
+    cursor: pointer;
+    background: black;
+    border-radius: 3px;
+}
+.navbar li a {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 1px;
+        text-decoration-color: white;
+        list-style-type: none;
+        margin: 0;
+}
+.contact-info li {
+        list-style-type: none;
+}
+/*
+navbar,li {
+    float: left;
+}
+
+navbar,li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+
+navbar,li a:hover {
+     background-color: black;
+}
+
+
+
+
+/*h1 {
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #b200ff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+a {
+  color: white;
+}
+
+/* Selecting elements by class */
+.container {
+    width: 100%;
+    padding: 10px;
+}
+
+/* Selecting elements by ID */
+#main-bio,
+#bio-name {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#bio-par {
+    position: absolute;
+   
+    left: 5px;
+}
+#bio-image {
+    position: relative;
+   float: left;
+    top: 0px;
+    width: 400px;
+    left: 0px
+    
+}
+#figure {
+  position: relative;
+  
+}
+#paragraph {
+    font-size: 24;
+    text-align: right;
+    
+}
+
+
+#main-bio {
+  width: 100%;
+  
+}
+
+#contact-info {
+    position: relative;
+    top: 400px;
+    float:left;
+    left: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color: white;
+}
+
